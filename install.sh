@@ -103,5 +103,4 @@ printf "User-agent: *\nDisallow: /" > /opt/gophish/static/endpoint/robots.txt
 
 sudo systemctl start gophish.service
 
-
 grep 'Please login with the username admin and the password' /var/log/gophish/gophish.error | awk -F 'msg=' '{print $2}'
