@@ -33,7 +33,7 @@ sudo chmod +x /opt/gophish/
 
 # Make folder /var/log/gophish/
 if [ ! -d "/var/log/gophish/" ]; then
-    echo "Creating /var/log/rustdesk-server"
+    echo "Creating /var/log/gophish/"
     sudo mkdir -p /var/log/gophish/
 fi
 sudo chown "${usern}" -R /var/log/gophish/
